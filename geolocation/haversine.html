@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haversine</title>
+</head>
+<body>
+    <h1>Distance calculation</h1>
+
+    <div id="lat">Waiting for the latitude...</div>
+    <div id="long">Waiting for the longitude...</div>
+    <div id="depulze">Waiting for the location info...</div>
+    <div id="klcc">Waiting for the location info...</div>
+    <div id="sunway">Waiting for the location info...</div>
+    <button id="locate">Locate Me!</button>
+
+    <script src="js/haversine.js"></script>
+    <script src="js/haversine_main.js"></script>
+</body>
+</html>
