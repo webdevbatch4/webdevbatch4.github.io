@@ -33,7 +33,7 @@ function GetBooking() {
                 row.insertCell(1).innerHTML = gName
                 row.insertCell(2).innerHTML = gEmail
                 row.insertCell(3).innerHTML = gPax
-                row.insertCell(4).innerHTML = gRemarks
+                row.insertCell(4).innerHTML = gRemarks 
                 row.insertCell(5).innerHTML = "<button id='" + btnId + "' type='button' class='btn btn-danger'>Delete</button>"
 
                 bookingIds.push(btnId)
