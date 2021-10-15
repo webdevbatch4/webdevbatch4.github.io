@@ -38,8 +38,15 @@
     <div id="app5">
         <p>{{ message }}</p>
         <input type="text" v-model="message">
+        <ol>
+            <grocery-list v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></grocery-list>
+        </ol>
+        <ol>
+            <grocery-list v-for="item in orderList" v-bind:todo="item" v-bind:key="item.id"></grocery-list>
+        </ol>
     </div>
 
+    <script src="js/grocery-list.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
